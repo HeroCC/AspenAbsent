@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Aspen Absent
-// @namespace    https://github.com/HeroCC/
+// @namespace    https://github.com/HeroCC/AspenAbsent
 // @version      0.1
 // @description  Mark entire classes absent in Aspen
 // @author       CC
