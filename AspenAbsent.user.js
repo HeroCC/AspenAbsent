@@ -6,6 +6,7 @@
 // @author       CC
 // @match        https://*.myfollett.com/aspen/classroomPopup.do*
 // @match        https://*.myfollett.com/aspen/seatingChart.do*
+// @downloadURL  https://github.com/HeroCC/AspenAbsent/blob/master/AspenAbsent.user.js
 // @grant        GM_setValue
 // @grant        GM_getValue
 // ==/UserScript==
