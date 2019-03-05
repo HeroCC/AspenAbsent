@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Aspen Absent
 // @namespace    https://github.com/HeroCC/AspenAbsent
-// @version      0.1
+// @version      0.2
 // @description  Mark entire classes absent in Aspen
 // @author       CC
 // @match        https://*.myfollett.com/aspen/classroomPopup.do*
@@ -30,7 +30,7 @@ function startAbsentButtonScan() {
         let inputType = possibleInputs[i].getAttribute("type");
         if (inputType == "button") {
             var buttonVal = possibleInputs[i].getAttribute("value");
-            if (buttonVal === "A") setTimeout(function() { pressButton(possibleInputs[i]) }, 500 * i);
+            if (buttonVal === "A") setTimeout(function() { pressButton(possibleInputs[i]) }, 250 * i);
         }
     }
 }
