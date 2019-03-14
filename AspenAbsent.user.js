@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Aspen Absent
 // @namespace    https://github.com/HeroCC/AspenAbsent
-// @version      0.2
+// @version      0.3
 // @description  Mark entire classes absent in Aspen
 // @author       CC
 // @match        https://*.myfollett.com/aspen/classroomPopup.do?attendance=true*
